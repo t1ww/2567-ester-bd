@@ -8,9 +8,11 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      -- Dear Ester, I love you so much, it's been years since we've been together but I've always feel more and more loved from you.<br>
+      <hr>
+      -- I kept falling in love with you more and more everyday. You makes me happy and my life seems brighter everyday when I'm with you.<br>
+      <hr>
+      -- I'm so glad we're together, and I want you to know that I appreciate everything you've ever done for me.<br>
     </h3>
   </div>
 </template>
@@ -37,5 +39,9 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
+}
+
+hr {
+  opacity: 15%;
 }
 </style>
